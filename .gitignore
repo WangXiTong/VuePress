@@ -1,1 +1,11 @@
-node_modules
+.DS_Store
+
+node_modules/
+
+# node
+yarn.lock
+
+# build
+docs/.vuepress/dist
+
+/public
