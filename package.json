@@ -1,0 +1,19 @@
+{
+  "name": "VuePress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WangXiTong/VuePress.git",
+  "author": "wangxitong <wangxitong@zuoyebang.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
